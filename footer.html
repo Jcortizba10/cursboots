@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-offset="57">
+    
+    <!--Header-->
+      <nav id="header"  class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/platzi-logo.png" alt="Platzi"> Conf Hawaii
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item ">
+                <a class="nav-link"  href="#main">La conferencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#speakers">Las oradores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#place-time">El lugar y la fecha</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#conviertete-en-orador">Conviertete en orador</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-platzi" href="#" data-bs-toggle="modal" data-bs-target="#modalcompra">Comprar tickets</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--/Header-->
+    <!--Main-->
+    <main id="main">
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://lh3.googleusercontent.com/I_0XkrAa3Wgms2yztlwm4hVTVhXothjiIJPg2ezjhOMqfx4Mb3mnmbc9Nw_crX4oX8sjqpJwixzVdXULVd6xpB3XiiOroqGvn1A8vEj80X08vaDsJms7iztf51JVo2xNlmMJJ0zDy5AQj7gUAaihHQGXmVQVRBK4bZnR9nH13sgazE6z7gMaPIaZjiDRoUXEUBEf88EGR_eYTaH6twZeXzQPOFusESLCrfOvjPifKDmPhPA9WvMkaN5bfOcg6XzUPWZ78VC_OnyKtvoraARvdUzTgJ0iHHvPEyr6G1aQRmCpF28e3Ky4j0RiVYqsw7q8hw7UiDlkkLoTOwwYGgwc8_bSe6ef3xxUvaMPFoPouVVpu8peoOef1QQ7GCQEJAMhfK6rUUBxngxhu0DqUZP9fEXgLKQ8-aGulnaSgiK2Y1npQ54zIRWazK4kVRmIf7WI_sIEY4tqCfzabitaJvLr7fVXe101oL__btdHFYt_WoOUF90dOP7zR7fnv5UVkfUIfImarV2yssScDR-Hjoi2dTatzkiR0fUJZkSBTavxFgYlqZ-sGGJXnFbCdfwrG7wTkw035Fa-BBlCuYtCcbgftNZcVFb7fc5q2SYsOsfcvmonD5OFCmIR2di8LF-erK97GDRYoKdU7MNg0eL2e2Qm3eRPTIHnT09Njb5yXphZyx4oWqdG_C4MCjd2dyk2hrlCddjVzy-EWAuPKA6u86Fh5Z1lbEKmPxFNIr_EPg-zFTQgkvr_FeS0OXdtW3U4IhsGyNbfhKlrLF7hc9Xj4suI6T8aBmKjNUAuyeOBjUVy7z21t-dVubBUDZHhgDegH3JMA01gXmtNPwT1491UTSOjxCpWgPkCVSyMIvgF4t04EDRmCOWhw7vDgJXVGc8sEa5cYNkdse6kfl4mt4W0CwESOXauRL61SWQj7JYMJv8BiZr2Rg=w1406-h893-s-no?authuser=0" class="d-block w-100" alt="hawaii">
+            </div>
+            <div class="carousel-item">
+                <img src="ihttps://photos.google.com/search/_tra_/photo/AF1QipPdgFbCz7tw6-8gnemFxFA8x_3lVhi385YoIARm" class="d-block w-100" alt="hawaii2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://photos.google.com/search/_tra_/photo/AF1QipPSH5qv44SgFXAFglg1BhkI9V8I98s4ZlBPVXuo" class="d-block w-100" alt="hawaii3">
+            </div>
+            <div class="overlay">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 offset-md-6 text-center text-md-end">
+                            
+                            <h1 class="overlay__title mt-5">Platzi conf hawaii</h1>
+
+                            <p class="d-none d-md-block">Platzi conf llega por primera vez a hawaii! Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los que estan creando un fututo brillante, ve a conocer los estudiante y profesores de platzi</p>
+                            <a href="" class="btn btn-outline-light">Quiero ser Orador</a>
+                            <button type="button" class="btn btn-platzi" data-bs-toggle="modal" data-bs-target="#modalcompra">Comprar tickets</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </main>
+    <!--/Main-->
+
+    <!--speakers-->
+    <section id="speakers" class="mt-4 mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center text-uppercase">
+                    <small>conoce a los</small>
+                    <h2>Oradores</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="ccol-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://lh3.googleusercontent.com/jTGX2wIEJl0Kr1aBSpesPtc8wCQBHiQUxMobDABboSH7c5bFgbGsUhIk2H5wRbGazkDj8MEp9bIxqoYycVF3Ez6s1LBGYgjCCRpwbVR4UuZgAiSBBDHcGlmHFIDoatAv0kxht37PPpmYqtK7wB5M13YQxn0wpHIhk7Jl55IJPyox7zXIouEIk0oilfmBvoVmO2PJFI5QwMocECA5yT5FXEhVMMiMO_GJQAQpFZyhKa7aCszXNcj_QSN3Pf1ERrhO3I-TTB1lCOexc616WyUeQ3sOtCpjPb1PKTTb9H7Tv9_RP-LulyIhkjZg23DCzjFOWstJXv6VSO-xk2lmowdCKDXsqrvDWtDPJZDbbvh6AtPSmvkvXeRxWdJkw5Xh5UzWQrYXfLvQGKlX8QCy2OMPof6Fd6bjAHJfeTutwAJF_X8RjQdANP1pR-gyn7zri4emh2YuWxAqeJw4kN-chZOnHbkhRT9j45GeNQMa4EmZ0xA-XeKc5utOQ_BMc2NCZX_zs1t9zHe8M0SWdvSU6cJ9D03dRPL7l9F_UPnalLKrSU3JucbdXdDnPdHBUdfYY98BX_P9hABQOlOl2VoC10w0ErqnppeIrHxRwAR_F8-7jr-wEQkXg4IUBG2auZmzCkQMmNpGeucdjQRtFYJAaDtwEtT9HH_j1bkFfoOcZP2mtpYDuyCz3UR9ZDpAKAGMJXPSS0LnxsFoDxl3R08S1K3Izv2seq46NQk-rh8QuABeEXaxTVA8iV9BqFPR1dJf1Q2371_FQ13RR9GmYB2MP1cuBrJZXYWYAnTkintGLq70yNmpL2sbn43EAFkwkACDUynEl_dP0mXmN23l5YaGyPS-ntStgum9AB5UX3LQILMCsRzxdVaPhKH7091-ZO0owupodxUnW7aEFvatJyoLxGhxx9HRPFBgaf2fkF8BbMPMzhEH0Q=w670-h893-s-no?authuser=0" class="card-img-top" alt="jcam">
+                        
+                        <div class="card-body ">
+                          <h5 class="card-title mb-0">Juan Camilo Ortiz</h5>
+                          <div class="badges">
+                            <span class="badge text-bg-warning">Javascript</span>
+                            <span class="badge text-bg-success">React</span>
+                          </div>
+                          <p class="card-text">Parecía que, con Amelia Lorente, Lucas Hernández había asentado la cabeza tras sus truculentos inicios. Hace unos años, la pareja se vio involucrada en una pelea que acabó con ambos en el Juzgado. Sin embargo, con el paso del tiempo se convirtieron en padres de dos niños y su relación se estabilizó.
+                            O al menos eso parecía, hasta que hace unos días la madrileña destapaba una infidelidad del futbolista: "Ya puedes dejar de jugar a dos bandas Lucas Hernández. Te lo regalo Cristina Buccino. No te olvides que tienes DOS hijos que no vienes a ver", escribía en sus 'stories' de Instagram..</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://lh3.googleusercontent.com/uefg95bdipl8nHlAZmjaaS9iRhCckeOz-DoueB0z80Mux2lalqW9M7gb72RxSLJf0klXxwcDhUya7acP4FKYfDAVmcMgfksDJPt9VYd0CtKMIcUMm5nMWihxaq-zLkZ3VlzQpxIN9WehTnmvg3y9sxJDuxPuwzfDPXZeuQ4GojPg504WWHp6B-is20PcVedX6-u2AQNiLwq7i86LfpaiZtVlhPrjVFvMsMZWSFR2SVB3L1IVZBS5YKJ0NmlPQlv8OIwyYIKf8HemdhlH4RFCA70p8hRVN2o34dVhS9LShqyyd8TZzIW2KV1uR4aX3uWd3xYFoQVZZrNo1tbG6JwJ468-6jiiXRoS-EZxrG4rbEaYkbkCcbf5llL1BmDNDsY9UCyyh4uZeyqzbCNm-mNgBWngoMc2a--xu1YF2DfH7RyCHti50NEKqa-9arGzO_12tSrE9Apc5GxefKKEx2ZW47xl6R1LyFcXLnHIFk_iOLkoJHcSOVpnW8zXDmAlgiqKWvsTtlIa24pBIAtFu5Zmtf-YyEe5NbSOa9bWIw8ui9qGemIkE_2i1DmX18rLA_DVYDSW7WhdjPSlfRsi9uTbmexW79pobNNJdMynsu5S-YKKtCzhLDFwLbsDcZMVUFHI5w77nF_IgTrWakh_DI_YVuj7ip4pvfudJXdEdVq2SKCKs26ljry0nvYFwO7SkOnFYJwk9vXE_2XwMoTvCqPdcB5qV_r3nPs4W6ogVQJP6yGodg6cRsJsbOt_Sl5OlHnkYOjTy2XEVyrotcuVl0Wcf4mOFPPkheO39bF1ZDfIinflsYeTWNgvh9J4L3VNXltFKMdzYLdR4-KK14YIRJn80HFkucwJxTI64miBV8tNTMfx8U41JJo0TXcnql0F1Oh4gR6Lgba2G3miVyTGmeX0d0tBW9YXkJ6PaE4MMRhU57hDdg=w625-h893-s-no?authuser=0" class="card-img-top" alt="jcam">
+                        <div class="card-body">
+                          <h5 class="card-title mb-0">Juan Camilo Ortiz</h5>
+                          <div class="badges">
+                            <span class="badge text-bg-warning">Javascript</span>
+                            <span class="badge text-bg-success">React</span>
+                          </div>
+                          <p class="card-text">Parecía que, con Amelia Lorente, Lucas Hernández había asentado la cabeza tras sus truculentos inicios. Hace unos años, la pareja se vio involucrada en una pelea que acabó con ambos en el Juzgado. Sin embargo, con el paso del tiempo se convirtieron en padres de dos niños y su relación se estabilizó.
+                            O al menos eso parecía, hasta que hace unos días la madrileña destapaba una infidelidad del futbolista: "Ya puedes dejar de jugar a dos bandas Lucas Hernández. Te lo regalo Cristina Buccino. No te olvides que tienes DOS hijos que no vienes a ver", escribía en sus 'stories' de Instagram..</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://lh3.googleusercontent.com/dil3QIV_NmcswzO5_gcDTgsYzYNrHIxHjwC5LGn2qIj-uwBQ3qVqrKqr092Z9OTwttJUp7bqVGshBEiHJwYCf2TikzcGviLuDTIkEQZIuVghIdFjEmv1-Rhgdl9imea-dvlUU7tzvZkwxy_7zGxgDiMBjQlwnlEdYWJ82-0ci7wVHpZgq2a2jA1h3-R0KchsaNwDKHoI0JrS1iDSDARhOhRPNfltW1-yG4etZ8Y3LQs1pcFvzK_F6cpO1GktWmaPh9ZgbrlsKScEOORnrJOh-WekMmI4AewE2rdO0P0PNyqPOYvR0nbLf5xSakDQkoM8Pwfl-B04EqNvZDhYsUfcWdISWPQk7s3_rE8kU3xbW2Dx8Du-u3vOyVes0cQVNNox79FfqdDDW_7jEqh1mSiqYs0AZqJfdCtOvQHlsKMHEm3F0PWZJmE9_08stDc09hb7jb3_j_hiYaoGQM7zf9Q6vlWa386PDonMJXdBQdj_Vu-84CcSlKwG7N1lKhxkmPTXgmCMhekICnYmKsGjmkkcyGM66fgQUlOmiAJVIps_48ZerZyiBN1ewpEV-ngC81DvU5Zp8Z6MwEpqUO2cE4EHB4iQZFea5zzD_tfm5VubOcDjNu3PrTsJDPoqShIYzcJxFBPK2cMgMCV_vsJ1pn-PIK3ZklobmLTKVFMYsABGQDF-ouO-JdeJYk5g4dq2GCRla-0ZQ5UMjIXrURfM2b4PEnKe78whXOofy_vux0bgih0bdrx2twaa-05t5I9m0zU8sWgrPGyiIbS_n04x38sL2oZjjvstTIe6qnUWvjWsukds9dXdWIyUswkCCnlg1_XqLWf3SDIxfnMHQP00sJe2rDSPdBsF7j7PVXwqAjqvBUoMO9gqzd8GDkFrEmP7FffGZj1O6eTOF5tXlR7lvm5UDPaWhj4V-9idG3vEUFNdXYj3FA=w670-h893-s-no?authuser=0" class="card-img-top" alt="jcam">
+                        <div class="card-body">
+                          <h5 class="card-title mb-0">Juan Camilo Ortiz</h5>
+                          <div class="badges">
+                            <span class="badge text-bg-warning">Javascript</span>
+                            <span class="badge text-bg-success">React</span>
+                          </div>
+                          <p class="card-text">Parecía que, con Amelia Lorente, Lucas Hernández había asentado la cabeza tras sus truculentos inicios. Hace unos años, la pareja se vio involucrada en una pelea que acabó con ambos en el Juzgado. Sin embargo, con el paso del tiempo se convirtieron en padres de dos niños y su relación se estabilizó.
+                            O al menos eso parecía, hasta que hace unos días la madrileña destapaba una infidelidad del futbolista: "Ya puedes dejar de jugar a dos bandas Lucas Hernández. Te lo regalo Cristina Buccino. No te olvides que tienes DOS hijos que no vienes a ver", escribía en sus 'stories' de Instagram..</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="https://lh3.googleusercontent.com/Lr0zEOwq3SrZbI6OpRvGm5XhRu0IIirXF_HdqjCnkUTIkjurA2WKV_gFeLVGoFMFj7JAaZRZjN_AMlsmyfIreSUiz8yGG9KP3J9tEMrh6XDYthJOvb4JU0CB0GlLsdal_AIPSBnsSFmpuoY89ak_gOJTTUL_0ZplIKEVm0kwSqbWm6P1NrvClpmGr29WgllYDkw-Fm2nKmImGA24HiHmI1vJrXT4xZL0nYIj9rqZONQbtMk4P1DKlxAZdNZzscUmvLrElfliLBX3l7LcDLn887eweE9FfHLnMyI4gGgRJtwe6TewigsjneFAzlMPYwSgDgxpzRainQeQQIaECy5GlU-OlKfbPAPbhuHuooan38uy4_LtP4IYL2DkZ0jVgu0pcQAlZ1dZKVwsFjd1ofL1vjRq_X84G_822PltxHaP1ty1L7EloyU2szqmGtTy_7WoC51t1NlxsM644Y8Wh17-7aG9UjtFovq6sY1iXYLEbWzB9doPpOpR3-be-PGay_VbTAkbsKRmnrmznble43-MEY6AuANUln8q0DNNMoGhXs2u1yrkXXcaGHwMpHl7m2COHwSPH6dP2cCOigFMZvA4v9tzVzcbyKjgDTczNP7yqI6m33m9PUUBRSNS_Db2fHaLLEyStSsbgAw3n1CLwOY4U_0pABZi2iXh0d7XirVF3rP4PfkvY_t7t750-hhFmV0OF4lwqD7P_ZseazgxAYkLrHpFgl7LXmSgltRcV461Qq5_2rYcLb4Gx1YyuFv_BrgIdVB6_EBKi39U5HaXcV4YXa9AMS7BmkK4yWPLYbGhA0gVCM_qZlbz45lkhNMHsIhs_xj7A0QpFGbkDNJAeNwwPdT9J4BFeUGet_SiJCmVS4niiVV-gWR1X-aZ8WbJ0V2YP1WSbW1jMUMe9N0k7RluLQj0Kb_yvv44qOzWYWlM5EzsIg=w1190-h893-s-no?authuser=0" class="card-img-top" alt="jcam">
+                        <div class="card-body">
+                          <h5 class="card-title mb-0">Juan Camilo Ortiz</h5>
+                          <div class="badges">
+                            <span class="badge text-bg-warning">Javascript</span>
+                            <span class="badge text-bg-success">React</span>
+                          </div>
+                          <p class="card-text">Parecía que, con Amelia Lorente, Lucas Hernández había asentado la cabeza tras sus truculentos inicios. Hace unos años, la pareja se vio involucrada en una pelea que acabó con ambos en el Juzgado. Sin embargo, con el paso del tiempo se convirtieron en padres de dos niños y su relación se estabilizó.
+                            O al menos eso parecía, hasta que hace unos días la madrileña destapaba una infidelidad del futbolista: "Ya puedes dejar de jugar a dos bandas Lucas Hernández. Te lo regalo Cristina Buccino. No te olvides que tienes DOS hijos que no vienes a ver", escribía en sus 'stories' de Instagram..</p>
+                        </div>
+                      </div>
+                </div>
+        
+                        
+            </div>
+            
+        </div>
+    </section>
+    <!--/speakers-->
+    <!--lugar y fecha-->
+    <section id="place-time">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-6 pl-0 pr-0 pb-3">
+                    <img src="img/honolulu.jpg" alt="ciudad honolulu">
+                </div>
+                <div class="col pt-2">
+                    <h2>Honolulu - Octubre 2025</h2>
+                    <p>No se sabe a ciencia cierta cuándo fue que se establecieron en Honolulu los primeros emigrantes polinesios. Algunos opinan que se fundó a principios del segundo milenio antes de Cristo por una comunidad perteneciente de Polinesia. Lo que está claro es que algunas descripciones orales y artefactos encontrados indican que en el siglo xii ya había una comunidad establecida en el sitio donde hoy se encuentra Honolulu. Sin embargo, cuando Kamehameha I conquistó Oahu en la batalla de Nuuanu Pali, el monarca trasladó su corte de la isla de Hawái a Waikiki en 1804. Su corte volvió a mudarse, en 1809, donde hoy se encuentra el centro de Honolulu.El capitán inglés William Brown fue el primer extranjero en llegar, en 1794, a lo que hoy es el puerto de Honolulú. Desde entonces una gran cantidad de barcos extranjeros comenzarían a visitar el puerto, convirtiendo a Honolulu en un punto frecuentado por las naves mercantes provenientes de Norteamérica y Asia.</p>
+                    <a class="btn btn-outline-light"    href="https://es.wikipedia.org/wiki/Honolulu">Conoce más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--lugar y fecha-->
+    <!--Conviertete en speakers-->
+    <section id="conviertete-en-orador" class="pt-2 pb-2">
+        <div class="container">
+            <div class="row">
+                <div class="col text-uppercase text-center">
+                    <small >Conviertete en un</small>
+                    <h2>Orador</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    Anótate como orador para dar una <abbr data-bs-toggle="tooltlip" title="Charlas de 5 minutos">Charla ignite</abbr>.
+                    Cuentanos de que quieres hablar!.
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+                    <form>
+                        <div class="row">
+                            <div class="mb-3 form-group col-12 col-md-6">
+                              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                            </div>
+                            <div class="form-group col-12 col-md-6">
+                              <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col pt-2">
+                                <textarea name="text" class="form-control form-control-lg" placeholder="Sobre que quieres hablar"></textarea>
+                                <small class="form-text text-muted">Recuerda incluir un titulo para tu charla</small>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col">
+                                <button type="button" class="btn btn-platzi col-12">Enviar</button>
+                            </div>
+
+                          </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--/Conviertete en speakers-->
+    <!--Footer -->
+    <footer id="footer" class="pb-4 pt-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 col-lg">
+                    <a href="#">Preguntas Frecuentes</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Contactanos</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Prensa</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Conferencias</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Términos y condiciones</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Privacidad</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Estudiantes</a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- footer-->
+    <!--Modal-->
+    <div class="modal fade" id="modalcompra" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Comprar tickets</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-row">
+                    <div class="form-group col">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                          </div>
+                    </div>
+                </div>
+              </form>
+              <div class="alert alert-warning" role="alert">
+                Recibiras un correo de confirmacion si sales favorecido!
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-platzi">Comprar</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!--/Modal-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>
